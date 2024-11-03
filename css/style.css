@@ -37,8 +37,8 @@ ul, ol {
 }
 
 
-.header_link {
-    color: #2E2F42;
+.header_item {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -46,11 +46,11 @@ ul, ol {
     text-decoration: none;
 }
 
-.header_link:hover {
+.header_item:hover {
     color: #404bbf;
 }
 
-.header_link:focus {
+.header_item:focus {
     color:  #404bbf;
 }
 
