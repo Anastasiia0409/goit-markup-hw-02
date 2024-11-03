@@ -36,8 +36,7 @@ ul, ol {
     text-decoration: none;
 }
 
-
-.header_item {
+.header_link {
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -46,11 +45,11 @@ ul, ol {
     text-decoration: none;
 }
 
-.header_item:hover {
+.header_link:hover {
     color: #404bbf;
 }
 
-.header_item:focus {
+.header_link:focus {
     color:  #404bbf;
 }
 
@@ -114,14 +113,6 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
-.advantages-list{
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-}
-
 .advantages-text {
     color: #434455;
     font-weight: 400;
@@ -130,12 +121,12 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
-.advantage-subtitle {
+.advantages-subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-align: center;
     margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
