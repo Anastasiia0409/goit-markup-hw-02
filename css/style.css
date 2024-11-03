@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h1, h2, h3, h4 h5, h6, p {
@@ -16,12 +17,14 @@ ul, ol {
 }
 
 .logo-header {
+    font-family: 'Raleway', sans-serif;
     color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .logo_accent {
@@ -40,11 +43,7 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     text-decoration: none;
-    gap: 40px;
 }
 
 .address {
@@ -54,48 +53,45 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    height: 24px;
-    top: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     text-decoration: none;
-    gap: 40px;
 }
 
 .section1 {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
 }
 
 .title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding: 188px 0;
 }
 
 .button {
     background-color: #4D5AE5;
     color: #fff;
     margin: auto;
-    display: block;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
     cursor: pointer;
     border: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .advantages {
-    padding: 120px 0;
+
+
 }
 
 .advantages-list{
@@ -104,11 +100,6 @@ ul, ol {
     font-size: 20px;
     line-height: 1.7;
     letter-spacing: 0.02em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 24px;
-    justify-content: center;
 }
 
 .advantages-text {
@@ -117,7 +108,6 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
 }
 
 .advantage-subtitle {
@@ -127,36 +117,25 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: left;
     margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .team {
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
-    top: 1016px;
-    gap: 0px;
-    opacity: 0px;
-
 }
 
-.title1 {
+.title-1 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    padding: 120px 0;
+    text-transform: capitalize;
 }
 
 .team-foto {
-    width: 264px;
-    height: 260px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 24px;
-    padding: 72px 0;
-    padding-left: 156px 0;
+    background-color:  #FFFFFF;
 }
 
 .name {
@@ -165,7 +144,6 @@ ul, ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .subtitle {
@@ -174,30 +152,23 @@ ul, ol {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   align-items: center;
-   text-align: center;
 }
 
 .portfolio {
     margin: 120px 0;
 }
 
-.title2 {
+.title-2 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-foto {
-    width: 360px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 24px;
+ 
 }
 
 .caption {
@@ -206,7 +177,6 @@ ul, ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .subtitle1 {
@@ -215,12 +185,14 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .logo-footer {
+    font-family: 'Raleway', sans-serif;
     color: #F4F4FD;
     text-decoration: none;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -230,8 +202,6 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.03em;
     margin: 120px 0;
-    width: 1440px;
-    height: 312px;
 }
 
 .text-footer {
