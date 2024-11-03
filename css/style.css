@@ -54,9 +54,11 @@ ul, ol {
     color:  #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
 .address {
     color: #434455;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -105,7 +107,7 @@ ul, ol {
     background-color: #404BBF;
 }
 
-.advantage {
+.advantage-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -142,7 +144,7 @@ ul, ol {
     background-color: #F4F4FD;
 }
 
-.title-1 {
+.title_team {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -176,7 +178,7 @@ ul, ol {
     margin: 120px 0;
 }
 
-.title-2 {
+.title_portfolio {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -194,7 +196,7 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
-.subtitle1 {
+.subtitle_portfolio {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
